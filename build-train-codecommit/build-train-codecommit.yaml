@@ -1,3 +1,6 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+
 Description: Toolchain template which provides the infrastructure resources needed to represent infrastcuture as code.
   This template specifically creates a CI/CD pipeline to build a model using a SageMaker Pipeline. This infrastructure
   provides a sample starter code for model building and sets up the infrastructure for re building the model on demand
